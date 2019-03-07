@@ -1,0 +1,47 @@
+# Input OPT
+
+  option:
+    -l.                         
+    -c.                         
+    -w.                         
+    -l -w.
+    -l -c.
+    -c -w.
+    -l -c -w.
+    none.                    
+
+# Input from
+
+  Length of from:
+    Empty.                        [single] [property emptyfrom]
+    Greater or equal 1.           
+    Longer than the file.         [error]  
+
+# Input to
+   Length of to:
+    Empty.                        [single][if !emptyfrom][property emptyto]
+    Equal to from.                        [if !emptyfrom] 
+    Not empty not equal to from.          [if !emptyfrom]
+
+# Input filename
+
+  Presence of file corresponding to name:
+    Present.
+    Not present.                  [error]
+
+# File
+  Size:
+    Empty.                        [single][if !emptyfrom][property fileempty]
+    Not empty. 
+  Number of occurrences of from in file:
+    None.                         [single][if !fileempty] [property zerooccurences]
+    One or Many.                  [if !fileempty]                 
+  From is whitespace delimited:
+    Yes.                          [if !zerooccurences]
+    No.                           [if !zerooccurences]
+  Cases:
+    Matches from.                 [if !zerooccurences] 
+    Doesn’t match from.           [if !zerooccurences]
+  
+
+                      

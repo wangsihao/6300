@@ -1,0 +1,735 @@
+----------------------------------------
+  TSLgenerator
+
+  (C) University of California Irvine,
+      and Oregon State University, 2001
+----------------------------------------
+
+	70 test frames generated
+
+Test Case 1  		<single>
+   Length of from :  Empty
+
+
+Test Case 2  		<error>
+   Length of from :  Longer than the file
+
+
+Test Case 3  		<single>
+   Length of to :  Empty
+
+
+Test Case 4  		<error>
+   Presence of file corresponding to name :  Not present
+
+
+Test Case 5  		<single>
+   Size :  Empty
+
+
+Test Case 6  		<single>
+   Number of occurrences of from in file :  None
+
+
+Test Case 7  		(Key = 1.2.2.1.2.2.1.1.)
+   option                                 :  -l
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 8  		(Key = 1.2.2.1.2.2.1.2.)
+   option                                 :  -l
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 9  		(Key = 1.2.2.1.2.2.2.1.)
+   option                                 :  -l
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 10 		(Key = 1.2.2.1.2.2.2.2.)
+   option                                 :  -l
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 11 		(Key = 1.2.3.1.2.2.1.1.)
+   option                                 :  -l
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 12 		(Key = 1.2.3.1.2.2.1.2.)
+   option                                 :  -l
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 13 		(Key = 1.2.3.1.2.2.2.1.)
+   option                                 :  -l
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 14 		(Key = 1.2.3.1.2.2.2.2.)
+   option                                 :  -l
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 15 		(Key = 2.2.2.1.2.2.1.1.)
+   option                                 :  -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 16 		(Key = 2.2.2.1.2.2.1.2.)
+   option                                 :  -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 17 		(Key = 2.2.2.1.2.2.2.1.)
+   option                                 :  -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 18 		(Key = 2.2.2.1.2.2.2.2.)
+   option                                 :  -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 19 		(Key = 2.2.3.1.2.2.1.1.)
+   option                                 :  -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 20 		(Key = 2.2.3.1.2.2.1.2.)
+   option                                 :  -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 21 		(Key = 2.2.3.1.2.2.2.1.)
+   option                                 :  -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 22 		(Key = 2.2.3.1.2.2.2.2.)
+   option                                 :  -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 23 		(Key = 3.2.2.1.2.2.1.1.)
+   option                                 :  -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 24 		(Key = 3.2.2.1.2.2.1.2.)
+   option                                 :  -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 25 		(Key = 3.2.2.1.2.2.2.1.)
+   option                                 :  -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 26 		(Key = 3.2.2.1.2.2.2.2.)
+   option                                 :  -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 27 		(Key = 3.2.3.1.2.2.1.1.)
+   option                                 :  -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 28 		(Key = 3.2.3.1.2.2.1.2.)
+   option                                 :  -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 29 		(Key = 3.2.3.1.2.2.2.1.)
+   option                                 :  -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 30 		(Key = 3.2.3.1.2.2.2.2.)
+   option                                 :  -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 31 		(Key = 4.2.2.1.2.2.1.1.)
+   option                                 :  -l -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 32 		(Key = 4.2.2.1.2.2.1.2.)
+   option                                 :  -l -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 33 		(Key = 4.2.2.1.2.2.2.1.)
+   option                                 :  -l -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 34 		(Key = 4.2.2.1.2.2.2.2.)
+   option                                 :  -l -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 35 		(Key = 4.2.3.1.2.2.1.1.)
+   option                                 :  -l -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 36 		(Key = 4.2.3.1.2.2.1.2.)
+   option                                 :  -l -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 37 		(Key = 4.2.3.1.2.2.2.1.)
+   option                                 :  -l -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 38 		(Key = 4.2.3.1.2.2.2.2.)
+   option                                 :  -l -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 39 		(Key = 5.2.2.1.2.2.1.1.)
+   option                                 :  -l -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 40 		(Key = 5.2.2.1.2.2.1.2.)
+   option                                 :  -l -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 41 		(Key = 5.2.2.1.2.2.2.1.)
+   option                                 :  -l -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 42 		(Key = 5.2.2.1.2.2.2.2.)
+   option                                 :  -l -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 43 		(Key = 5.2.3.1.2.2.1.1.)
+   option                                 :  -l -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 44 		(Key = 5.2.3.1.2.2.1.2.)
+   option                                 :  -l -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 45 		(Key = 5.2.3.1.2.2.2.1.)
+   option                                 :  -l -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 46 		(Key = 5.2.3.1.2.2.2.2.)
+   option                                 :  -l -c
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 47 		(Key = 6.2.2.1.2.2.1.1.)
+   option                                 :  -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 48 		(Key = 6.2.2.1.2.2.1.2.)
+   option                                 :  -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 49 		(Key = 6.2.2.1.2.2.2.1.)
+   option                                 :  -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 50 		(Key = 6.2.2.1.2.2.2.2.)
+   option                                 :  -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 51 		(Key = 6.2.3.1.2.2.1.1.)
+   option                                 :  -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 52 		(Key = 6.2.3.1.2.2.1.2.)
+   option                                 :  -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 53 		(Key = 6.2.3.1.2.2.2.1.)
+   option                                 :  -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 54 		(Key = 6.2.3.1.2.2.2.2.)
+   option                                 :  -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 55 		(Key = 7.2.2.1.2.2.1.1.)
+   option                                 :  -l -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 56 		(Key = 7.2.2.1.2.2.1.2.)
+   option                                 :  -l -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 57 		(Key = 7.2.2.1.2.2.2.1.)
+   option                                 :  -l -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 58 		(Key = 7.2.2.1.2.2.2.2.)
+   option                                 :  -l -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 59 		(Key = 7.2.3.1.2.2.1.1.)
+   option                                 :  -l -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 60 		(Key = 7.2.3.1.2.2.1.2.)
+   option                                 :  -l -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 61 		(Key = 7.2.3.1.2.2.2.1.)
+   option                                 :  -l -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 62 		(Key = 7.2.3.1.2.2.2.2.)
+   option                                 :  -l -c -w
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 63 		(Key = 8.2.2.1.2.2.1.1.)
+   option                                 :  none
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 64 		(Key = 8.2.2.1.2.2.1.2.)
+   option                                 :  none
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 65 		(Key = 8.2.2.1.2.2.2.1.)
+   option                                 :  none
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 66 		(Key = 8.2.2.1.2.2.2.2.)
+   option                                 :  none
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 67 		(Key = 8.2.3.1.2.2.1.1.)
+   option                                 :  none
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Matches from
+
+
+Test Case 68 		(Key = 8.2.3.1.2.2.1.2.)
+   option                                 :  none
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  Yes
+   Cases                                  :  Doesn’t match from
+
+
+Test Case 69 		(Key = 8.2.3.1.2.2.2.1.)
+   option                                 :  none
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Matches from
+
+
+Test Case 70 		(Key = 8.2.3.1.2.2.2.2.)
+   option                                 :  none
+   Length of from                         :  Greater or equal 1
+   Length of to                           :  Not empty not equal to from
+   Presence of file corresponding to name :  Present
+   Size                                   :  Not empty
+   Number of occurrences of from in file  :  One or Many
+   From is whitespace delimited           :  No
+   Cases                                  :  Doesn’t match from
